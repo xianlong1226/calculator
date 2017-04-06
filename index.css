@@ -1,0 +1,38 @@
+body,ul{ margin:0px; padding:0px;}
+body{
+	background: #AF6332;
+	background-color: #E6E6E6;
+}
+
+.calBox .fl{ float:left;}
+.calBox .fr{ float:right;}
+.calBox .clearfix:after{ content:""; display:block;clear:both}
+.calBox .clearfix{zoom:1;}
+/*是用inset可以将外部阴影改成内部阴影;若要实现内外阴影同时存在，将其并在一行用逗号隔开*/
+.calBox{
+	width: 460px;
+	height: 394px;
+	border-radius: 5px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -230px;
+	margin-top: -197px;
+	box-shadow: 0px 0px 10px rgba(153,153,153,0.8),0px 0px 10px rgba(0,0,0,0.5) inset;
+	-webkit-box-shadow: 0px 0px 10px rgba(153,153,153,0.8),0px 0px 10px rgba(0,0,0,0.5) inset;
+	background: #F9F9F9;
+	overflow: hidden;
+}
+.calBox input{ width:406px; height:82px; margin:10px 7px 0px; border-radius:5px; border:1px solid #64655F; box-shadow:0px 5px 2px rgba(157,157,145,0.8) inset; -webkit-box-shadow:0px 5px 2px rgba(157,157,145,0.8) inset; outline:none; background:#FCFDEB; text-align:right; font-family:"微软雅黑"; font-size:40px; padding:0px 10px;}
+.calBox ul{}
+.calBox li{ list-style:none; width:74px; height:34px; line-height:34px; text-align:center; font-family:"微软雅黑"; border:1px solid #8B8B8B; border-radius:5px; background:url(./images//calBg) repeat-x; float:left; margin:12px 6px 0px;}
+.calBox .one li{ height:44px; background:url(./images/calBg1.jpg) repeat-x; line-height:44px;cursor:pointer;}
+.calBox .one .orange{ background:url(./images/calBg2.jpg) repeat-x; border:1px solid #875733;}
+.calBox .one .black{ background:url(./images/calBg3.jpg) repeat-x; border:1px solid #363636; color:#fff;}
+.calBox .one .gray{ background:url(./images/calBg4.jpg) repeat-x; border:1px solid #5F6366;}
+.calBox .zero{ width:160px;}
+.calBox .one .deng{ background:url(./images/calBg5.jpg); height:100px;}
+.calBox .twoBox{ width:353px; overflow:hidden; }
+.calBox .two{ width:358px;}
+.calBox .three { margin:0px}
+.calBox .calu{ padding:0px 10px; width:441px;}
